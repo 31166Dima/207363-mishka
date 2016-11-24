@@ -1,6 +1,6 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/adaptive/9/user/207363).
+* Студент: [Неопознанный енот..](https://up.htmlacademy.ru/adaptive/9/user/207363).
 * Наставник: `Илья Сачев.
 
 ---
