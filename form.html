@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>HTML Academy: Мишка: Форма</title>
+        <meta charset="utf-8">
+    </head>
+	
+<body>	
+	
+	<header class="page-header">
+<figure class="page-header__logo">
+<img src="http://placehold.it/150x100"  alt="Mishka">
+</figure>
+<nav class="main-nav main-nav--closed">
+<button class="main-nav__toggle" type="button">Открыть меню</button>
+<div class="main-nav__wrapper">
+<ul class="main-nav__list">
+<li class="main-nav__item"><a href="#">Каталог товаров</a></li>
+<li class="main-nav__item"><a href="#">Вязание на заказ</a></li>
+<li class="main-nav__item"><a>...</a></li>
+</ul>
+<ul class="main-nav__user-list">
+<li class="main-nav__user-item"><a class="main-nav__user>Корзина пока пуста</a></li>
+</ul>
+<ul class="main-nav__list1">
+<li class="main-nav__item1"><a>Новые поступления</a></li>
+<li class="main-nav__item1"><a>Распродажа</a></li>
+</ul>
+</div>
+</nav>
+</header>
+
+
+<section class="forma">
+  <h1 class="forma__h1">Вязание на заказ</h1>
+  <p class="forma__p"> Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+  <form action="#" class="forma__form">
+    <h2 class="forma__h2">ТИП</h2>
+    <label class="forma__type>
+	  <input type="radio" name="type" class="forma__type-input" checked>Аксессуар для интерьера
+	  </input>
+	</label>
+	<label class="forma-type">
+	  <input type="radio" name="type" class="forma__type-input" checked>Детская игрушка
+	  </input>
+	</label>
+	<h2 class="forma__h2">ЦВЕТ</h2>
+	<select name="color" multiple size="6" class="forma__select">
+	  <option class="forma__option" selected>Белый</option>
+	  <option class="forma__option" selected>Серый</option>
+	  <option class="forma__option" >"Тиффани"</option>
+	  <option class="forma__option" >Черный</option>
+	  <option class="forma__option" >Розовый</option>
+	  <option class="forma__option" >Оранжевый</option>
+	</select>
+	<h2 class="forma__h2">ФИО</h2>
+	<label class="forma__name" name="name">Имя:
+	  <input type="text" name="name" value="Введите ваше имя*" required></input>
+	</label>
+    <label class="forma__name" name="name">Фамилия:
+	  <input type="text" name="name" value="Укажите фамилию*" required></input>
+	</label>
+    <label class="forma__name" name="name">Отчество:
+	  <input type="text" name="name" value="Отчество, если желаете" ></input>
+	</label>
+    <h2 class="forma__h2">ТЕЛ</h2>
+    <input class="forma__tel" name="tel" value="+7 XXX XX XX*" reguired></input>
+    <h2 class="forma__h2">E-MAIL</h2>
+    <input class="forma__tel" name="tel" value="Ваш Емайл*" reguired></input>
+    <h2 class="forma__h2">ДОП</h2>
+    <textarea name="comment" class="forma__comment" rows="8">Опишите все ваши пожелания к заказу
+    </textarea>
+    <p class="forma__p">*Поля обязательны для заполнения</p>
+    <input type="submit" class="forma__input-submit" value="ОТПРАВИТЬ ЗАКАЗ">
+  </form>
+</section>
+
+
+
+<footer class="page2-footer">  
+  <div class="page2-footer__social">
+    <a class="page2-footer__social page-footer__social--vk" href="https://vk.com/htmlacademy"></a>
+    <a class="page2-footer__social page-footer__social--fb" href="https://www.facebook.com/htmlacademy"></a>    
+    <a class="page2-footer__social page-footer__social--in" href="https://www.instagram.com/htmlacademy"></a>
+  </div>
+
+  <p class="page2-footer__copyright">
+    Разработано
+    <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+  </p>
+</footer>
+
+</body>
+
+</html>  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
