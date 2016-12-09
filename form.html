@@ -4,9 +4,9 @@
         <title>HTML Academy: Мишка: Форма</title>
         <meta charset="utf-8">
     </head>
-	
-<body>	
-	
+
+<body>
+
 	<header class="page-header">
 <figure class="page-header__logo">
 <img src="http://placehold.it/150x100"  alt="Mishka">
@@ -34,7 +34,62 @@
 <section class="forma">
   <h1 class="forma__h1">Вязание на заказ</h1>
   <p class="forma__p"> Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
-  <form action="#" class="forma__form">
+
+
+  <form class="form" action="#">
+
+    <fieldset class="form-group">
+      <div class="form-group__title">Тип</div>
+      <div class="form-group__fields">
+        <div class="form-group__field-wrapper">
+          <input class="form__radio" type="radio" name="type" id="type-interior">
+          <label class="form__label" for="type-interior">Аксессуар для интерьера</label>
+
+          <!--
+          .form__radio + .form__label {
+            background-image: url(../img/radio-non-checked.png);
+            padding-left: 80px;
+
+            &::before {
+
+            }
+
+            &::after {
+
+            }
+          }
+          .form__radio:checked + .form__label {
+            background-image: url(../img/radio-checked.png);
+            padding-left: 80px;
+          }
+           -->
+        </div>
+        <div class="form-group__field-wrapper">
+          <input class="form__radio" type="radio" name="type" id="type-toy">
+          <label class="form__label" for="type-toy">Детская игрушка</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="form-group">
+      <div class="form-group__title">ФИО</div>
+
+      <div class="form-group__fields">
+
+        <div class="form-group__field-wrapper">
+          <label class="form__label" for="name">Имя</label>
+          <input class="form__field" type="text" name="name" id="name">
+        </div>
+      </div>
+
+</form>
+
+
+
+
+
+
+  <form action="#" class="form">
     <h2 class="forma__h2">ТИП</h2>
     <label class="forma__type>
 	  <input type="radio" name="type" class="forma__type-input" checked>Аксессуар для интерьера
@@ -55,7 +110,7 @@
 	</select>
 	<h2 class="forma__h2">ФИО</h2>
 	<label class="forma__name" name="name">Имя:
-	  <input type="text" name="name" value="Введите ваше имя*" required></input>
+	  <input type="text" name="name" value="Введите ваше имя*" required>
 	</label>
     <label class="forma__name" name="name">Фамилия:
 	  <input type="text" name="name" value="Укажите фамилию*" required></input>
@@ -68,8 +123,7 @@
     <h2 class="forma__h2">E-MAIL</h2>
     <input class="forma__tel" name="tel" value="Ваш Емайл*" reguired></input>
     <h2 class="forma__h2">ДОП</h2>
-    <textarea name="comment" class="forma__comment" rows="8">Опишите все ваши пожелания к заказу
-    </textarea>
+    <textarea name="comment" class="forma__comment" rows="8">Опишите все ваши пожелания к заказу</textarea>
     <p class="forma__p">*Поля обязательны для заполнения</p>
     <input type="submit" class="forma__input-submit" value="ОТПРАВИТЬ ЗАКАЗ">
   </form>
@@ -77,10 +131,10 @@
 
 
 
-<footer class="page2-footer">  
+<footer class="page2-footer">
   <div class="page2-footer__social">
     <a class="page2-footer__social page-footer__social--vk" href="https://vk.com/htmlacademy"></a>
-    <a class="page2-footer__social page-footer__social--fb" href="https://www.facebook.com/htmlacademy"></a>    
+    <a class="page2-footer__social page-footer__social--fb" href="https://www.facebook.com/htmlacademy"></a>
     <a class="page2-footer__social page-footer__social--in" href="https://www.instagram.com/htmlacademy"></a>
   </div>
 
@@ -92,11 +146,11 @@
 
 </body>
 
-</html>  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+</html>
+
+
+
+
+
+
+
