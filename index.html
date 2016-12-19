@@ -6,7 +6,7 @@
     </head>
 <body>
 
-<header class="page-header">
+<header class="page-header"> 
     <div class="page-header__logo">
         <img src="http://placehold.it/150x100" alt="Mishka">
     </div>
@@ -70,18 +70,21 @@
             <h2 class="product__title">Вязаные корзинки</h2>
             <h3 class="product__label">Товар недели</h3>
             <p class="product__desc">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-
-            <!-- Все-таки лучше передать на список -->
-            <!--
-                <ul class="product-attr">
-                    <li>
-                        <span class="product-attr__label"></span>
-                        <span class="product-attr__value"></span>
-                    </li>
-                    <li><span class="product-attr__label"></span><span class="product-attr__value"></span></li>
-                    <li><span class="product-attr__label"></span><span class="product-attr__value"></span></li>
-                </ul>
-             -->
+            <ul class="product-attr">
+                <li>
+                    <span class="product-attr__label">Цвет:</span>
+                    <span class="product-attr__value">"Тиффани"/серый</span>
+                </li>
+                <li>
+                	<span class="product-attr__label">Диаметр:</span>
+                    <span class="product-attr__value">25см</span>
+                </li>
+                <li>
+                	<span class="product-attr__label">Высота:</span>
+                    <span class="product-attr__value">15см</span>
+                </li>
+            </ul>
+             <!--
             <table class="sectin1__table">
                 <tr class="section1__tr">
                     <td class="section1__td">Цвет:</td>
@@ -95,42 +98,42 @@
                     <td class="section1__td">Высота:</td>
                     <td class="section1__td">15см</td>
                 </tr>
-            </table>
+            </table>-->
         </div>
         <div class="product__image">
             <img src="http://placehold.it/150x100">
         </div>
 
         <div class="product__buy-details">
-            <div class="">Цена:990руб</div>
+            <div class="product__price">Цена:990руб</div>
             <a href="#" class="btn">Заказать</a>
         </div>
     </section>
 
     <section class="news">
-        <h1 class="news__h1">Коротко о нас:</h1>
-        <ul class="news__ul">
-            <li class="news__li"><a href="#">Экологически чистые материалы</a></li>
-            <li class="news__li"><a href="#">Скандинавский стиль по российской цене</a></li>
-            <li class="news__li"><a href="#">Увеличивает лайки на фотографиях</a></li>
-            <li class="news__li"><a href="#">Связано вручную с любовью и умилением</a></li>
-            <li class="news__li"><a href="#">Поддержка отечественного производителя</a></li>
-            <li class="news__li"><a href="#">Поставляется в подарочной упаковке</a></li>
+        <h1 class="news__title">Коротко о нас:</h1>
+        <ul class="news__list">
+            <li class="news__item"><a href="#">Экологически чистые материалы</a></li>
+            <li class="news__item"><a href="#">Скандинавский стиль по российской цене</a></li>
+            <li class="news__item"><a href="#">Увеличивает лайки на фотографиях</a></li>
+            <li class="news__item"><a href="#">Связано вручную с любовью и умилением</a></li>
+            <li class="news__item"><a href="#">Поддержка отечественного производителя</a></li>
+            <li class="news__item"><a href="#">Поставляется в подарочной упаковке</a></li>
         </ul>
     </section>
 
 
     <section class="reviews">
-        <h1 class="reviews__h1">Отзывы</h1>
-        <p class="reviews__p">
+        <h1 class="reviews__title">Отзывы</h1>
+        <p class="reviews__text">
             Я молодая мама, но все равно фотографии не набирали
             и близко такого количества лайков, как у популярных инстамамочек.
             В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии
             сразу стали более стильными, а также набирают больше лайков!
         </p>
-        <div class="reviews__div">
+        <div class="reviews__author">
             Анастасия Красильникова
-            <span class="reviews__email">@misssssiskras</span>
+            <span class="reviews__nikname">@misssssiskras</span>
         </div>
 
         <button class="reviews__prev" type="button">Предыдущий отзыв</button>
@@ -141,25 +144,29 @@
 </main>
 <footer class="page-footer">
     <div class="container">
-        <h1 class="page-footer__h1">Контакты</h1>
-        <table class="page-footer__table">
-            <tr class="page-footer__tr">
-                <td class="page-footer__td"> e-mail:</td>
-                <td class="page-footer__td"> info@mimimishkashop.ru</td>
-            </tr>
-            <tr class="page-footer__tr">
-                <td class="page-footer__td">адрес:</td>
-                <td class="page-footer__td">г. Санкт-Петербург, ул. Большая Конюшенная, д.19/8, офис101</td>
-            </tr>
-        </table>
-        <a href="#" class="btn">Напишите нам</a>
-        <div class="page-footer__social">
-            <a class="page-footer__social page-footer__social--vk" href="https://vk.com/htmlacademy">ВКонтакте</a>
-            <a class="page-footer__social page-footer__social--fb" href="https://www.facebook.com/htmlacademy"></a>
-            <a class="page-footer__social page-footer__social--in" href="https://www.instagram.com/htmlacademy"></a>
+        <h1 class="page-footer__title">Контакты</h1>
+        <ul class="page-footer__contacts">
+        	<li class="page-footer__item">
+        		<span class="page-footer__label">e-mail:</span>
+        		<span class="page-footer__value">info@mimimishkashop.ru</span>
+        	</li>
+        	<li class="page-footer__item">
+        		<span class="page-footer__label">адрес:</span>
+        		<span class="page-footer__value">г.Санкт-Петербург, ул.Большая Конюшенная, д.19/8, офис101</span>
+        	</li>
+        </ul>
+        <div class="page-footer__map">
+        	<img src="http://placehold.it/150x100">
         </div>
-
-        <p class="page-footer__copyright">Разработано <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></p>
+        <a href="#" class="btn">Напишите нам</a>
+        <div class="page-footer__box">
+        	<ul class="page-footer__social">
+            	<li><a class="page-footer__social page-footer__social--vk" href="https://vk.com/htmlacademy">ВКонтакте</a></li>
+           		<li><a class="page-footer__social page-footer__social--fb" href="https://www.facebook.com/htmlacademy">Фейсбук</a></li>
+            	<li><a class="page-footer__social page-footer__social--in" href="https://www.instagram.com/htmlacademy">Инстаграм</a></li>
+            </ul>
+        	<p class="page-footer__copyright">Разработано <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></p>
+        </div>
     </div>
 </footer>
 </body>
