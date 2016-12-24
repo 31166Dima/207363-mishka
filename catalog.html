@@ -3,20 +3,21 @@
     <head>
         <title>HTML Academy: Мишка: Каталог</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
 <body>
 
 <header class="page-header"> 
     <div class="page-header__logo">
-        <img src="http://placehold.it/150x100" alt="Mishka">
+        <img src="img/logo-mobile.svg" alt="Mishka">
     </div>
     <nav class="main-nav main-nav--closed">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__row">
             <ul class="main-nav__list">
                 <li class="main-nav__item">
-                    <a class="main-nav__link" href="#">Каталог товаров</a>
+                    <a class="main-nav__link" href="catalog.html">Каталог товаров</a>
                 </li>
                 <li class="main-nav__item">
                     <a class="main-nav__link" href="#">Вязание на заказ</a>
@@ -51,7 +52,9 @@
 
 
 <main class="catalog">
-  <h1 class="catalog__title">Каталог товаров</h1>
+  <div class="catalog__title">
+    <h1>Каталог товаров</h1>
+  </div>
   <div class="catalog-wrapper">
     <div class="catalog__product">
       <img src="http://placehold.it/150x100">
@@ -84,7 +87,7 @@
       <source src="video.webm" type="video/webm">
     </video>
     <p class="catalog-video__text"> По просьбе наших любимых фолловеров мы сняли для вас подробное видео, как появляются наши товары</p>
-    <a href="#" class="catalog-video__link" >Сделать заказ</a>
+    <a href="#" class="catalog-video__link btn" >Сделать заказ</a>
   </div>
 </main> 
   
@@ -101,10 +104,7 @@
     </div>
 </footer>
 
-
-
 </body>
-
 </html>  
   
   

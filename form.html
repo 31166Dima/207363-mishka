@@ -3,6 +3,7 @@
     <head>
         <title>HTML Academy: Мишка: Форма</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
 
@@ -15,7 +16,7 @@
         <div class="main-nav__row">
             <ul class="main-nav__list">
                 <li class="main-nav__item">
-                    <a class="main-nav__link" href="#">Каталог товаров</a>
+                    <a class="main-nav__link" href="catalog.html">Каталог товаров</a>
                 </li>
                 <li class="main-nav__item">
                     <a class="main-nav__link" href="#">Вязание на заказ</a>
@@ -50,7 +51,9 @@
 
 
 <main class="page-form">
-  <h1 class="page-form__title">Вязание на заказ</h1>
+  <div class="page-form__title">
+    <h1 class="page-form__title--text">Вязание на заказ</h1>
+  </div>
   <p class="page-form__text"> Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
   <form class="form" action="#">
 
@@ -111,7 +114,7 @@
       <div class="form-group__title">ФИО</div>
       <div class="form-group__fields">
         <div class="form-group__field-wrapper">
-          <label class="form__label" for="name">Имя</label>
+          <label class="form__label" for="name">Имя:</label>
           <input class="form__field" type="text" name="name" id="name" value="Введите ваше имя*" required>
           <label class="form__label" for="family">Фамилия:</label>
           <input class="form__field" type="text" name="name" id="family" value="Укажите фамилию*" required>
@@ -122,23 +125,21 @@
     </fieldset>
     
     <fieldset class="form-group">
-      <div class="form-group__title">Тел</div>
       <div class="form-group__fields">
-        <div class="form-group__field-wrapper">
+        <label class="form-group__label">ТЕЛ<br>
           <input class="form__tel"  type="tel" name="tel" value="+7 XXX XX XX*" required> 
-        </div>
+        </label>
       </div>
-      <div class="form-group__title">E-mail</div>
       <div class="form-group__fields">
-        <div class="form-group__field-wrapper">
+        <label class="form-group__label">E-MAIL<br>
           <input class="form__e-mail"  type="e-mail" name="e-mail" value="Ваш Email*" required> 
-        </div>
+        </label>
       </div>
       <div class="form-group__title">Доп</div>
       <textarea class="form__text" name="comment" rows="8">Опишите все ваши пожелания к заказу</textarea>
       <p class="form__message">*Поля обязательны для заполнения</p>     
     </fieldset>
-    <input type="submit" class="btn" name="zakaz" value="Отправить заказ">
+    <input type="submit" class="form-group__send btn" name="zakaz" value="Отправить заказ">
   </form>
 </main>
 
@@ -155,16 +156,6 @@
     </div>
 </footer>
 
-
-
-
 </body>
-
 </html>
-
-
-
-
-
-
 
